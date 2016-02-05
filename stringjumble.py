@@ -27,4 +27,5 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 x=["h","e"]
 print(x)
-print(str(x))
+for y in x:
+    print(y, " ", end="")

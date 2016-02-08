@@ -42,5 +42,6 @@ while z<len(w):
     a=[]
     a.append(w[z])
     if a[z]==" ":
-        print(str(a), end="")
+        for s in a:
+            print(s, end="")
     z=z+1

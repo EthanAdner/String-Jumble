@@ -29,7 +29,12 @@ x=str(input("Please enter a string of text (the bigger the better): "))
 x=list(x)
 #print(x)
 z=0
+
+#Letters in reverse
 while z<len(x):
     y=x[len(x)-z-1]
     print(y,end="")
     z=z+1
+    
+x=x.split()
+print(x)

@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: <sources>
+Author: Ethan Adner
+Credit: 
 
 Assignment:
 
@@ -40,7 +40,7 @@ z=0
 while z<len(w):
     a=[""]
     a.append(w[z])
-    if " " in a:
+    if a[z]:
         for s in a:
             print(s, end="")
     z=z+1

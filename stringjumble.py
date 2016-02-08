@@ -31,3 +31,4 @@ print(x)
 z=0
 while z<=len(x):
     print(x[z],end="")
+    z+=1

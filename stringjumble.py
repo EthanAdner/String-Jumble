@@ -35,7 +35,7 @@ while z<len(w):
     y=w[len(w)-z-1]
     print(y,end="")
     z=z+1
-
+print("")
 
 z=0
 a=[""]

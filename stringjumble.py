@@ -27,7 +27,6 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 x=str(input("Please enter a string of text (the bigger the better): "))
 w=list(x)
-#print(x)
 z=0
 
 #Letters in reverse
@@ -41,7 +40,7 @@ z=0
 while z<len(w):
     a=[""]
     a.append(w[z])
-    if a[z]==" ":
+    if " " in a:
         for s in a:
             print(s, end="")
     z=z+1

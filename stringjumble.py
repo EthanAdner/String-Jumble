@@ -29,7 +29,7 @@ x=str(input("Please enter a string of text (the bigger the better): "))
 x=list(x)
 print(x)
 z=0
-while z<=len(x):
+while z<len(x):
     y=x[z]
     print(y,end="")
     z+=1

@@ -32,4 +32,4 @@ z=0
 while z<len(x):
     y=x[z]
     print(y,end="")
-    z+=1
+    z=z+1

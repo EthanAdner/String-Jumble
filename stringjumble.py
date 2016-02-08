@@ -35,10 +35,12 @@ while z<len(w):
     y=w[len(w)-z-1]
     print(y,end="")
     z=z+1
-"""z=0
+
+
+z=0
+a=[""]
 while z<len(w):
-    y=w[z]
-    
-    print(y,end="")
+    a.append(w[z])
+    if a[z]==" ":
+        print(a, end="")
     z=z+1
-"""

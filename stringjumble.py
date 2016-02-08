@@ -38,10 +38,9 @@ while z<len(w):
 print("")
 
 z=0
-a=[""]
 while z<len(w):
+    a=[""]
     a.append(w[z])
     if a[z]==" ":
         print(str(a), end="")
-        a=[""]
     z=z+1

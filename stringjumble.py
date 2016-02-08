@@ -36,5 +36,3 @@ while z<len(x):
     print(y,end="")
     z=z+1
     
-x=x.split()
-print(x)

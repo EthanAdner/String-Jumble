@@ -30,6 +30,6 @@ x=list(x)
 #print(x)
 z=0
 while z<len(x):
-    y=x[len(x)-z]
+    y=x[len(x)-z-1]
     print(y,end="")
     z=z+1

@@ -30,5 +30,6 @@ x=list(x)
 print(x)
 z=0
 while z<=len(x):
-    print(x[z],end="")
+    y=x[z]
+    print(y,end="")
     z+=1

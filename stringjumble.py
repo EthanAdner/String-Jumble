@@ -27,9 +27,9 @@ erehT era a wef seuqinhcet ro skcirt taht uoy yam dnif ydnah
 """
 x=str(input("Please enter a string of text (the bigger the better): "))
 x=list(x)
-print(x)
+#print(x)
 z=0
 while z<len(x):
-    y=x[z]
+    y=x[len(x)-z]
     print(y,end="")
     z=z+1

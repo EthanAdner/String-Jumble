@@ -39,7 +39,7 @@ print("")
 
 z=0
 while z<len(w):
-    a=[""]
+    a=[]
     a.append(w[z])
     if a[z]==" ":
         print(str(a), end="")

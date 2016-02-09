@@ -45,5 +45,5 @@ while z<len(w):
     if w[z]==" ":
         b.append(a)
     z=z+1
-b.remove("123456")
+
 print(b)

@@ -44,4 +44,5 @@ while z<len(w):
     a=a+w[z]
     if w[z]==" ":
         b.insert(0,a)
+    z=z+1
 b.remove("")

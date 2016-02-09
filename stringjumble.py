@@ -36,11 +36,3 @@ while z<len(w):
     z=z+1
 print("")
 
-z=0
-while z<len(w):
-    a=[""]
-    a.append(w[z])
-    if a[z]:
-        for s in a:
-            print(s, end="")
-    z=z+1

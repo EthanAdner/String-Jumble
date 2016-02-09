@@ -37,7 +37,7 @@ while z<len(w):
 print("asdfgh")
 
 z=0
-
+"""
 while z<len(w):
     b=[""]
     a=""
@@ -46,3 +46,4 @@ while z<len(w):
         b.insert(0,a)
     z=z+1
 b.remove("")
+"""

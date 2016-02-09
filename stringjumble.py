@@ -46,3 +46,4 @@ while z<len(w):
         b.insert(0,a)
     z=z+1
 b.remove("")
+print(b)

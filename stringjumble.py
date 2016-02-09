@@ -41,7 +41,7 @@ z=0
 while z<len(w):
     b=["123456"]
     a=""
-    a=a+w[z]
+    a=a+str(w[z])
     if w[z]==" ":
         b.append(a)
     z=z+1

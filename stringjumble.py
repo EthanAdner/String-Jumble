@@ -43,7 +43,7 @@ while z<len(w):
     a=""
     a=a+w[z]
     if w[z]==" ":
-        b.insert(-1,a)
+        b.append(a)
     z=z+1
 b.remove("123456")
 print(b)

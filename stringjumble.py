@@ -36,3 +36,12 @@ while z<len(w):
     z=z+1
 print("")
 
+z=0
+
+while z<len(w):
+    b=[""]
+    a=""
+    a=a+w[z]
+    if w[z]==" ":
+        b.insert(0,a)
+b.remove("")

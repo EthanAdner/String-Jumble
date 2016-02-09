@@ -39,11 +39,11 @@ print("")
 z=0
 
 while z<len(w):
-    b=[""]
+    b=["123456"]
     a=""
     a=a+w[z]
     if w[z]==" ":
         b.insert(0,a)
     z=z+1
-b.remove("")
+b.remove("123456")
 print(b)

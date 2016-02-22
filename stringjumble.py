@@ -80,4 +80,4 @@ for d in b:
         y=w[len(w)-z-1]
         print(y,end="")
         z=z+1
-    print("")
+    print("", end=" ")

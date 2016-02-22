@@ -1,4 +1,4 @@
-"""
+"""He
 stringjumble.py
 Author: Ethan Adner
 Credit: 
@@ -36,14 +36,27 @@ while z<len(w):
     z=z+1
 print("")
 
-z=0
+#words in reverse
 
-while z<len(w):
-    b=["123456"]
-    a=""
+#splits words apart
+z=0
+a=""
+b=[""]
+while z<len(w):    
     a=a+str(w[z])
+    #print(a)
     if w[z]==" ":
         b.append(a)
+        a=""
     z=z+1
+b.append(a)
+b.remove("")
+#print(b)
+z=0
+#reverses words
+while z<len(b):
+    y=b[len(b)-z-1]
+    print(y,end=" ")
+    z=z+1
+print("")
 
-print(b)

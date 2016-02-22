@@ -60,3 +60,24 @@ while z<len(b):
     z=z+1
 print("")
 
+##################
+z=0
+a=""
+b=[""]
+while z<len(w):    
+    a=a+str(w[z])
+    #print(a)
+    if w[z]==" ":
+        b.append(a)
+        a=""
+    z=z+1
+b.append(a)
+b.remove("")
+
+for d in b:
+    z=0
+    while z<len(w):
+        y=w[len(w)-z-1]
+        print(y,end="")
+        z=z+1
+    print("")

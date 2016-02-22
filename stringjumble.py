@@ -52,6 +52,7 @@ while z<len(w):
 b.append(a)
 b.remove("")
 print(b)
+print(w)
 z=0
 #reverses words
 while z<len(b):

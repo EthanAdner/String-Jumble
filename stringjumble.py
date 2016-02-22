@@ -1,7 +1,7 @@
 """He
 stringjumble.py
-Author: Ethan Adner
-Credit: 
+Author: Ethan Adner 
+Credit: Payton Stearns
 
 Assignment:
 
@@ -35,10 +35,10 @@ while z<len(w):
     print(y,end="")
     z=z+1
 print("")
-
+######################
 #words in reverse
 
-#splits words apart
+#splits words apart into letters
 z=0
 a=""
 b=[""]
@@ -62,3 +62,5 @@ while z<len(b):
 print("")
 
 ##################
+z=0
+while

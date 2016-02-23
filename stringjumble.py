@@ -71,7 +71,6 @@ while z< len(w):
     if str(w[z])==" ":
         #print(a)
         t=0
-        a.remove("")
         while t<len(a):
             y=a[len(a)-t-1]
             print(y,end="")

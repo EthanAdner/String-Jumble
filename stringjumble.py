@@ -63,4 +63,15 @@ print("")
 
 ##################
 z=0
-while
+a=[""]
+b=""
+while z<len(w):
+    
+    a.append(w[z])
+    c=0
+    if w[z]==" ":
+        while c<len(a):
+            y=w[len(a)-c-1]
+            print(y,end="")
+            z=z+1
+        print("")

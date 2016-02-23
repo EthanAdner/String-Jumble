@@ -68,3 +68,4 @@ g=""
 while z<= len(w):
     a.append(w[z])
     z=z+1
+    print(a)

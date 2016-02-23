@@ -65,7 +65,7 @@ print("")
 z=0
 a=[""]
 g=""
-while z<= len(w):
+while z< len(w):
     a.append(w[z])
     
     if str(w[z])==" ":

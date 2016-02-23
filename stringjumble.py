@@ -52,7 +52,7 @@ while z<len(w):
 b.append(a)
 b.remove("")
 print(b)
-print(w)
+#print(w)
 z=0
 #reverses words
 while z<len(b):
@@ -69,13 +69,12 @@ while z< len(w):
     a.append(w[z])
     
     if str(w[z])==" ":
-        print(a)
+        #print(a)
         t=0
         while t<len(a):
             y=a[len(a)-t-1]
             print(y,end="")
             t=t+1
-        print("")
         a=[""]
     z=z+1
 t=0

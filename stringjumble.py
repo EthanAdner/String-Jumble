@@ -63,7 +63,7 @@ print("")
 
 ##################
 z=0
-a=[""]
+a=[]
 g=""
 while z< len(w):
     a.append(w[z])

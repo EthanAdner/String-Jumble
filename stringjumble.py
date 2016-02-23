@@ -72,3 +72,4 @@ while z< len(w):
         print(a)
         a=[""]
     z=z+1
+print(a)

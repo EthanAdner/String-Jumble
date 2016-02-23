@@ -68,6 +68,8 @@ g=""
 while z< len(w):
     a.append(w[z])
     z=z+1
+    if z<len(w):
+        z=z-1
     if str(w[z])==" ":
         #print(a)
         t=0

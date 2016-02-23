@@ -75,6 +75,7 @@ while z< len(w):
             y=a[len(a)-t-1]
             print(y,end="")
             t=t+1
+        print("",end=" ")
         a=[""]
     z=z+1
 t=0

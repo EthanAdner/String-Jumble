@@ -67,6 +67,7 @@ a=[""]
 g=""
 while z<= len(w):
     a.append(w[z])
-    z=z+1
+    
     if str(w[z])==" ":
         print(a)
+    z=z+1

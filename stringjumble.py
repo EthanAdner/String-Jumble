@@ -76,7 +76,7 @@ while z< len(w):
             print(y,end="")
             t=t+1
         print("",end=" ")
-        a=[""]
+        a=[]
     z=z+1
 t=0
 while t<len(a):

@@ -70,12 +70,12 @@ while z< len(w):
     
     if str(w[z])==" ":
         print(a)
-        a=[""]
         t=0
         while t<len(a):
             y=a[len(a)-t-1]
             print(y,end="")
             t=t+1
         print("")
+        a=[""]
     z=z+1
 print(a)

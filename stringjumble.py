@@ -78,4 +78,10 @@ while z< len(w):
         print("")
         a=[""]
     z=z+1
+t=0
+while t<len(a):
+    y=a[len(a)-t-1]
+    print(y,end="")
+    t=t+1
+print("")
 print(a)

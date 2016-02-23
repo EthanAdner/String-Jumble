@@ -70,4 +70,5 @@ while z<= len(w):
     
     if str(w[z])==" ":
         print(a)
+        a=[""]
     z=z+1

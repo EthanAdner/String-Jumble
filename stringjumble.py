@@ -66,7 +66,7 @@ z=0
 a=[]
 g=""
 while z< len(w):
-    a.append(w[z])
+    
     #if z==len(w):
      #   z=z-1
     if str(w[z])==" ":
@@ -78,6 +78,7 @@ while z< len(w):
             t=t+1
         print("",end=" ")
         a=[]
+    a.append(w[z])
     z=z+1
 t=0
 while t<len(a):

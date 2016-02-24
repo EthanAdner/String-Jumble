@@ -64,15 +64,19 @@ while z<len(b):
     print(y,end="")
     z=z+1
 print("")
-print(c)
+
 
 ##################
 a=[]
 for x in c:
     for y in list(x):
         a.append(str(y))
-print(a)
-
+z=0
+while z<len(a):
+    y=w[len(a)-z-1]
+    print(y,end="")
+    z=z+1
+print("")
 
 """
 z=0

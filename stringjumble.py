@@ -58,10 +58,7 @@ z=0
 
 while z<len(b):
     y=b[len(b)-z-1]
-    if y==" ":
-        print(y,end="")
-    else:
-        print(y,end=" ")
+    print(y,end="")
     z=z+1
 print("")
 
@@ -88,10 +85,7 @@ t=0
 
 while t<len(a):
     y=a[len(a)-t-1]
-    if y==" ":
-        print(y,end="")
-    else:
-        print(y,end=" ")
+    print(y,end="")
     t=t+1
 print("")
 #print(a)

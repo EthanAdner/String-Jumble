@@ -65,6 +65,10 @@ while z<len(b):
 print("")
 
 ##################
+a=[]
+for x in b:
+    
+
 
 """
 z=0

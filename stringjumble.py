@@ -56,7 +56,7 @@ b.remove("")
 z=0
 #reverses words
 y=b[len(b)-z-1]
-print(y,end="")
+print(y,end=" ")
 z=z+1
 while z<len(b):
     y=b[len(b)-z-1]

@@ -85,8 +85,8 @@ while z< len(w):
     z=z+1
 t=0
 y=a[len(a)-t-1]
-    print(y,end=" ")
-    t=t+1
+print(y,end=" ")
+t=t+1
 while t<len(a):
     y=a[len(a)-t-1]
     print(y,end="")

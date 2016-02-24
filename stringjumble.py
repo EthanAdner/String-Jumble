@@ -67,7 +67,7 @@ print("")
 ##################
 a=[]
 for x in b:
-    a.append(list(x))
+    a.append(list(str(x)))
 print(a)
 
 

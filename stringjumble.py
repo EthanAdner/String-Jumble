@@ -73,7 +73,7 @@ for x in c:
         a.append(str(y))
 z=0
 while z<len(a):
-    y=w[len(a)-z-1]
+    y=a[len(a)-z-1]
     print(y,end="")
     z=z+1
 print("")

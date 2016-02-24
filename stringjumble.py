@@ -57,12 +57,14 @@ b.remove("")
 #print(w)
 z=0
 #reverses words
-
+c=[]
 while z<len(b):
     y=b[len(b)-z-1]
+    c.append(y)
     print(y,end="")
     z=z+1
 print("")
+print(c)
 
 ##################
 a=[]

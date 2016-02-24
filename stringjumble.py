@@ -44,13 +44,13 @@ a=""
 b=[""]
 while z<len(w):    
     a=a+str(w[z])
-    print(a)
     
     if w[z]==" ":
         b.append(a)
         a=""
     z=z+1
 b.append(a)
+print(b)
 b.remove("")
 #print(b)
 #print(w)

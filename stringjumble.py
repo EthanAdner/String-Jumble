@@ -68,6 +68,7 @@ print("")
 a=[]
 for x in b:
     a.append(list(x))
+print(a)
 
 
 """

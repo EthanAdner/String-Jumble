@@ -47,7 +47,7 @@ while z<len(w):
     print(a)
     c=z+1
     if c>len(w):
-        print()
+        print("")
     elif w[c]==" ":
         b.append(a)
         a=""

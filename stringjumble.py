@@ -44,7 +44,7 @@ a=""
 b=[""]
 while z<len(w):    
     a=a+str(w[z])
-    #print(a)
+    print(a)
     if w[z]==" ":
         b.append(a)
         a=""
@@ -63,6 +63,8 @@ while z<len(b):
 print("")
 
 ##################
+
+"""
 z=0
 a=[]
 g=""
@@ -81,7 +83,7 @@ while z< len(w):
         a=[]
     a.append(w[z])
     z=z+1
-
+'''ethan likes to eat all the ...'''
    
 t=0
 while t<len(a):
@@ -91,3 +93,4 @@ while t<len(a):
 print("", end=" ")
 
 #print(a)
+"""

@@ -86,4 +86,4 @@ while t<len(a):
     print(y,end="")
     t=t+1
 print("")
-print(a)
+#print(a)

@@ -45,7 +45,8 @@ b=[""]
 while z<len(w):    
     a=a+str(w[z])
     print(a)
-    if w[z]==" ":
+    c=z+1
+    if w[c]==" ":
         b.append(a)
         a=""
     z=z+1

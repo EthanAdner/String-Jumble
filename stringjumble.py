@@ -86,7 +86,7 @@ while z< len(w):
 t=0
 while t<len(a):
     y=a[len(a)-t-1]
-    print("{0}".format(y),end="")
+    print("{0}".format(y),end=" ")
     t=t+1
 print("", end=" ")
 

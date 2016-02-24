@@ -81,11 +81,12 @@ while z< len(w):
         a=[]
     a.append(w[z])
     z=z+1
-t=0
 
+   
+t=0
 while t<len(a):
     y=a[len(a)-t-1]
-    print(y,end="")
+    print("{0}".format(y),end="")
     t=t+1
 print("")
 #print(a)

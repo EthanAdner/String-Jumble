@@ -57,7 +57,7 @@ z=0
 #reverses words
 while z<len(b):
     y=b[len(b)-z-1]
-    print(y,end=" ")
+    print(y,end="")
     z=z+1
 print("")
 
@@ -76,7 +76,7 @@ while z< len(w):
             y=a[len(a)-t-1]
             print(y,end="")
             t=t+1
-        print("",end=" ")
+        print("",end="")
         a=[]
     a.append(w[z])
     z=z+1

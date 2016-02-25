@@ -73,11 +73,14 @@ for x in c:
     for y in list(x):
         a.append(str(y))
 z=0
+g=""
 while z<len(a):
     y=a[len(a)-z-1]
-    print(y,end="")
+    g=g+str(y)
     z=z+1
 print("")
+g=g.strip()
+print(g)
 
 """
 z=0

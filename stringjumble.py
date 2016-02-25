@@ -38,7 +38,7 @@ while z<len(w):
 print("")
 ######################
 #words in reverse
-print("")
+#print("")
 #splits words apart into letters
 z=0
 a=""

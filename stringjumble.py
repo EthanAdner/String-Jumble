@@ -1,4 +1,4 @@
-"""He
+"""
 stringjumble.py
 Author: Ethan Adner 
 Credit: Payton Stearns

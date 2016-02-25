@@ -52,7 +52,7 @@ while z<len(w):
     
     z=z+1
 b.append(a+" ")
-print(b)
+#print(b)
 b.remove("")
 #print(b)
 #print(w)

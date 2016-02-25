@@ -78,7 +78,6 @@ while z<len(a):
     y=a[len(a)-z-1]
     g=g+str(y)
     z=z+1
-print("")
 g=g.strip()
 print(g)
 
